@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Чистка мебели на дому в Заречном — Формула чистоты</title>
+<meta name="description" content="Заречный, Свердловская область: химчистка мебели на дому — диваны, кресла, матрасы, ковры. Цены, запись по телефону и в мессенджерах. Демо-версия сайта.">
+<meta name="keywords" content="химчистка мебели на дому, Заречный, чистка диванов, чистка матрасов, чистка ковров, Формула чистоты">
+<meta name="theme-color" content="#0f3d6e">
+<link rel="canonical" href="https://example.ru/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:title" content="Формула чистоты — чистка мебели на дому в Заречном">
+<meta property="og:description" content="Чистим диваны, кресла, матрасы и ковры у вас дома. Цены и запись в мессенджерах.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700;800&amp;display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Формула чистоты",
+  "description": "Чистка мягкой мебели, матрасов и ковров в Заречном, Свердловская область.",
+  "areaServed": { "@type": "City", "name": "Заречный" },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Заречный",
+    "addressRegion": "Свердловская область",
+    "addressCountry": "RU"
+  }
+}
+</script>
+<style>
+:root {
+  --ink: #101828;
+  --muted: #4a5568;
+  --line: #dde3ea;
+  --bg: #ffffff;
+  --surface: #f3f5f8;
+  --accent: #0f3d6e;
+  --accent-hover: #0b2f55;
+  --accent-active: #082342;
+  --accent-soft: #e6edf5;
+  --fill: #fff1b8;
+  --radius: 10px;
+  --wrap: 1120px;
+  --header-h: 56px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; animation: none !important; }
+}
+
+body {
+  margin: 0;
+  font-family: "Onest", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--ink);
+  background: var(--bg);
+  padding-bottom: 70px;
+}
+
+img { max-width: 100%; display: block; }
+h1, h2, h3, p, ul, ol, figure, blockquote { margin: 0; }
+ul, ol { padding: 0; list-style: none; }
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+
+/* Места, которые нужно заполнить */
+.fill { background: var(--fill); color: var(--ink); border-radius: 4px; padding: 0 4px; font-style: normal; }
+
+.skip { position: absolute; left: 12px; top: -60px; background: var(--ink); color: #fff; padding: 10px 16px; border-radius: 8px; z-index: 100; transition: top .15s; }
+.skip:focus { top: 12px; }
+
+.wrap { width: 100%; max-width: var(--wrap); margin: 0 auto; padding: 0 18px; }
+section { scroll-margin-top: var(--header-h); }
+.section { padding: 40px 0; }
+.section--tint { background: var(--surface); }
+
+.eyebrow { font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+h1, h2, h3 { font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; }
+h1 { font-size: clamp(2.1rem, 7vw, 3.6rem); }
+h2 { font-size: clamp(1.5rem, 4.2vw, 2.2rem); }
+h3 { font-size: 1.1rem; line-height: 1.25; letter-spacing: -0.01em; }
+.section__head { max-width: 620px; margin-bottom: 22px; }
+.section__head p { margin-top: 8px; color: var(--muted); }
+
+/* Buttons */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 48px; padding: 10px 22px;
+  border-radius: var(--radius); border: 2px solid var(--accent);
+  background: var(--accent); color: #fff;
+  font: inherit; font-weight: 700; text-decoration: none; text-align: center; cursor: pointer;
+  transition: background .15s, color .15s, border-color .15s, transform .1s;
+}
+.btn:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
+.btn:active { background: var(--accent-active); border-color: var(--accent-active); transform: translateY(1px); }
+.btn--ghost { background: #fff; color: var(--accent); }
+.btn--ghost:hover { background: var(--accent-soft); color: var(--accent-hover); }
+.btn--ghost:active { background: #d2deec; color: var(--accent-active); }
+.btn--light { background: #fff; color: var(--accent); border-color: #fff; }
+.btn--light:hover { background: var(--accent-soft); border-color: var(--accent-soft); color: var(--accent-hover); }
+.btn--light:active { background: #cddbeb; border-color: #cddbeb; }
+.btn--outline-light { background: transparent; color: #fff; border-color: rgba(255,255,255,.65); }
+.btn--outline-light:hover { background: rgba(255,255,255,.14); border-color: #fff; }
+.btn--outline-light:active { background: rgba(255,255,255,.26); }
+.on-dark :focus-visible { outline-color: #fff; }
+
+/* Header */
+.header { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.97); border-bottom: 1px solid var(--line); backdrop-filter: blur(8px); }
+.header__row { display: flex; align-items: center; justify-content: space-between; min-height: var(--header-h); gap: 16px; }
+.logo { font-weight: 800; font-size: 1.1rem; letter-spacing: -0.02em; text-decoration: none; color: var(--accent); }
+.logo:hover { color: var(--accent-hover); }
+.nav { display: flex; align-items: center; gap: 22px; }
+.nav a:not(.btn) { text-decoration: none; font-weight: 500; font-size: .94rem; padding: 6px 0; border-bottom: 2px solid transparent; transition: border-color .15s, color .15s; }
+.nav a:not(.btn):hover { color: var(--accent); border-bottom-color: var(--accent); }
+.nav a:not(.btn):active { color: var(--accent-active); }
+.nav .btn { min-height: 40px; padding: 6px 16px; }
+
+.menu-toggle { display: none; width: 44px; height: 44px; border: 1px solid var(--line); border-radius: var(--radius); background: #fff; cursor: pointer; position: relative; transition: background .15s, border-color .15s; }
+.menu-toggle:hover { background: var(--surface); border-color: var(--accent); }
+.menu-toggle:active { background: var(--accent-soft); }
+.menu-toggle span, .menu-toggle span::before, .menu-toggle span::after { display: block; position: absolute; left: 11px; width: 20px; height: 2px; background: var(--ink); content: ""; transition: transform .2s, top .2s, background .2s; }
+.menu-toggle span { top: 20px; }
+.menu-toggle span::before { top: -6px; left: 0; }
+.menu-toggle span::after { top: 6px; left: 0; }
+.menu-toggle[aria-expanded="true"] span { background: transparent; }
+.menu-toggle[aria-expanded="true"] span::before { top: 0; transform: rotate(45deg); }
+.menu-toggle[aria-expanded="true"] span::after { top: 0; transform: rotate(-45deg); }
+
+@media (max-width: 859px) {
+  .js .menu-toggle { display: block; }
+  .js .nav { display: none; position: absolute; top: var(--header-h); left: 0; right: 0; flex-direction: column; align-items: stretch; gap: 0; padding: 4px 18px 16px; background: #fff; border-bottom: 1px solid var(--line); }
+  .js .nav.is-open { display: flex; }
+  .js .nav a:not(.btn) { padding: 13px 0; border-bottom: 1px solid var(--line); font-size: 1rem; }
+  .js .nav .btn { margin-top: 12px; min-height: 48px; }
+  .no-js .nav { gap: 12px; flex-wrap: wrap; justify-content: flex-end; font-size: .9rem; }
+  .no-js .nav .btn { display: none; }
+}
+
+/* Hero */
+.hero { padding: 28px 0 0; }
+.hero__grid { display: grid; gap: 24px; }
+.hero__place { display: inline-block; font-size: .85rem; font-weight: 700; color: var(--accent); border: 1px solid var(--accent); padding: 3px 12px; border-radius: 999px; margin-bottom: 14px; }
+.hero h1 { max-width: 13ch; }
+.hero__lead { margin-top: 14px; font-size: 1.08rem; max-width: 30em; }
+.hero__cta { margin-top: 20px; }
+
+.contact-card { background: var(--accent); color: #fff; border-radius: 14px; padding: 22px 20px; }
+.contact-card h2 { font-size: 1.05rem; letter-spacing: 0; font-weight: 700; color: #cddbeb; }
+.contact-card__phone { display: inline-block; margin: 6px 0 16px; font-size: clamp(1.7rem, 6vw, 2.2rem); font-weight: 800; letter-spacing: -0.02em; text-decoration: none; color: #fff; border-bottom: 3px solid rgba(255,255,255,.35); transition: border-color .15s, color .15s; }
+.contact-card__phone:hover { border-bottom-color: #fff; }
+.contact-card__phone:active { color: #cddbeb; }
+.contact-card__btns { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.contact-card :focus-visible { outline-color: #fff; }
+
+.facts { margin-top: 28px; display: grid; border-top: 1px solid var(--line); }
+.facts li { padding: 14px 0; border-bottom: 1px solid var(--line); font-size: .96rem; }
+.facts b { display: block; font-size: 1.05rem; font-weight: 800; }
+.facts span { color: var(--muted); }
+
+@media (min-width: 720px) {
+  .facts { grid-template-columns: repeat(3, 1fr); border-top: 0; border-bottom: 0; }
+  .facts li { padding: 18px 20px 18px 0; border-bottom: 0; border-top: 2px solid var(--ink); margin-right: 20px; }
+}
+@media (min-width: 860px) {
+  .hero { padding: 56px 0 0; }
+  .hero__grid { grid-template-columns: 1.4fr 1fr; align-items: end; gap: 56px; }
+  .section { padding: 56px 0; }
+  .facts { margin-top: 48px; }
+}
+
+/* Services */
+.cards { display: grid; gap: 14px; }
+.svc { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 20px; display: flex; flex-direction: column; gap: 10px; transition: border-color .15s, box-shadow .15s; }
+.svc:hover { border-color: var(--accent); box-shadow: 0 4px 16px rgba(16,24,40,.08); }
+.svc__n { font-size: .85rem; font-weight: 700; color: var(--accent); letter-spacing: .06em; }
+.svc p { color: var(--muted); font-size: .96rem; }
+.svc__price { margin-top: auto; padding-top: 12px; border-top: 1px solid var(--line); font-size: 1.35rem; font-weight: 800; letter-spacing: -0.01em; }
+.svc__price small { font-size: .85rem; font-weight: 500; color: var(--muted); margin-left: 4px; }
+.cards__note { margin-top: 14px; color: var(--muted); font-size: .94rem; }
+@media (min-width: 720px) { .cards { grid-template-columns: repeat(3, 1fr); gap: 18px; } }
+
+/* Note band */
+.note-band { border: 2px dashed #b5c3d4; border-radius: 14px; padding: 22px 20px; background: #fff; max-width: 760px; }
+.note-band__tag { display: inline-block; font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; background: var(--fill); padding: 2px 10px; border-radius: 999px; margin-bottom: 10px; }
+.note-band p + p { margin-top: 8px; color: var(--muted); }
+
+/* Demo */
+.demo-bar { background: var(--fill); color: var(--ink); text-align: center; font-size: .88rem; padding: 7px 18px; line-height: 1.35; }
+.demo-bar b { font-weight: 800; letter-spacing: .06em; }
+.demo-pill { display: inline-block; margin-left: 8px; padding: 1px 8px; border: 1.5px solid var(--accent); border-radius: 999px; font-size: .68rem; font-weight: 800; letter-spacing: .08em; color: var(--accent); vertical-align: middle; }
+
+/* Steps: временная шкала */
+.steps { counter-reset: step; display: grid; gap: 0; }
+.step { counter-increment: step; position: relative; padding: 0 0 22px 54px; }
+.step:last-child { padding-bottom: 0; }
+.step::before { content: counter(step); position: absolute; left: 0; top: 0; width: 38px; height: 38px; border-radius: 50%; background: var(--accent); color: #fff; font-weight: 800; display: flex; align-items: center; justify-content: center; }
+.step::after { content: ""; position: absolute; left: 18px; top: 44px; bottom: 6px; width: 2px; background: var(--line); }
+.step:last-child::after { display: none; }
+.step p { margin-top: 4px; color: var(--muted); font-size: .96rem; }
+@media (min-width: 860px) {
+  .steps { grid-template-columns: repeat(4, 1fr); gap: 24px; }
+  .step { padding: 52px 0 0; }
+  .step::after { left: 48px; right: -24px; top: 18px; bottom: auto; width: auto; height: 2px; }
+}
+
+/* Reviews */
+.review-box { display: grid; gap: 14px; }
+.review { border: 2px dashed #c3cedb; border-radius: 14px; padding: 18px 20px; background: #fff; }
+.review blockquote { font-size: 1.1rem; font-weight: 700; line-height: 1.35; }
+.review cite { display: block; margin-top: 8px; font-style: normal; font-size: .88rem; color: var(--muted); }
+.review-box .btn { justify-self: start; }
+@media (min-width: 860px) { .review-box { grid-template-columns: 1.5fr 1fr; align-items: center; gap: 24px; } }
+
+/* FAQ */
+.faq-wrap { display: grid; gap: 8px; }
+.faq { border-top: 2px solid var(--ink); }
+.faq details { border-bottom: 1px solid var(--line); }
+.faq summary { list-style: none; cursor: pointer; padding: 15px 40px 15px 0; font-weight: 700; line-height: 1.3; position: relative; transition: color .15s; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary:hover { color: var(--accent); }
+.faq summary:active { color: var(--accent-active); }
+.faq summary::after { content: "+"; position: absolute; right: 6px; top: 50%; transform: translateY(-50%); font-size: 1.6rem; font-weight: 500; color: var(--accent); line-height: 1; }
+.faq details[open] summary::after { content: "−"; }
+.faq .answer { padding: 0 0 15px; color: var(--muted); max-width: 40em; font-size: .96rem; }
+.faq .answer p + p { margin-top: 6px; }
+@media (min-width: 860px) {
+  .faq-wrap { grid-template-columns: 1fr 2fr; gap: 56px; align-items: start; }
+  .faq-wrap .section__head { position: sticky; top: calc(var(--header-h) + 24px); margin-bottom: 0; }
+}
+
+/* Booking */
+.booking { background: var(--ink); color: #fff; }
+.booking .eyebrow { color: #9db8d6; }
+.booking__grid { display: grid; gap: 22px; }
+.booking__text { margin-top: 8px; color: #d4dce6; max-width: 30em; }
+.booking__phone { display: inline-block; margin-top: 14px; font-size: clamp(1.8rem, 6.5vw, 2.8rem); font-weight: 800; letter-spacing: -0.02em; text-decoration: none; color: #fff; border-bottom: 3px solid rgba(255,255,255,.35); transition: border-color .15s, color .15s; }
+.booking__phone:hover { border-bottom-color: #fff; }
+.booking__phone:active { color: #cddbeb; }
+.booking__btns { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-content: center; }
+.booking__vk { grid-column: 1 / -1; font-size: .94rem; color: #d4dce6; }
+.booking__vk a { color: #fff; text-underline-offset: 3px; }
+.booking__vk a:hover { color: #9db8d6; }
+@media (min-width: 860px) {
+  .booking__grid { grid-template-columns: 1.3fr 1fr; gap: 56px; align-items: center; }
+}
+
+/* Footer */
+.footer { padding: 22px 0; background: #0a111f; color: #b9c3d0; font-size: .9rem; }
+.footer__row { display: grid; gap: 8px; }
+.footer .logo { color: #fff; }
+.footer a:not(.logo) { color: #fff; text-underline-offset: 3px; }
+.footer a:not(.logo):hover { color: #9db8d6; }
+.footer :focus-visible { outline-color: #fff; }
+@media (min-width: 860px) { .footer__row { grid-template-columns: auto 1fr auto; align-items: center; gap: 32px; } }
+
+/* Mobile bar */
+.bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 8px 14px calc(8px + env(safe-area-inset-bottom)); background: #fff; border-top: 1px solid var(--line); }
+.bar .btn { min-height: 46px; padding: 8px 12px; }
+@media (min-width: 720px) { .bar { display: none; } body { padding-bottom: 0; } }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Перейти к содержимому</a>
+
+<div class="demo-bar" role="note"><b>DEMO SITE</b> — демонстрационная версия. Цены и тексты примерные.</div>
+
+<header class="header">
+  <div class="wrap header__row">
+    <a class="logo" href="#top" aria-label="Формула чистоты — наверх">Формула чистоты<span class="demo-pill">DEMO</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Открыть меню"><span></span></button>
+    <nav class="nav" id="nav" aria-label="Основное меню">
+      <a href="#services">Услуги и цены</a>
+      <a href="#process">Как работаем</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#faq">Вопросы</a>
+      <a class="btn" href="tel:+79326114345" data-tel>Позвонить</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="wrap">
+      <div class="hero__grid">
+        <div>
+          <p class="hero__place">Заречный, Свердловская область</p>
+          <h1 id="hero-title">Чистим диваны, матрасы и ковры у вас дома</h1>
+          <p class="hero__lead">Приезжаем в Заречный сами. Заявки принимаем с 09:00. Цену называем до начала работы.</p>
+          <p class="hero__cta"><a class="btn" href="#booking">Оставить заявку — приедем к вам</a></p>
+        </div>
+        <aside class="contact-card" aria-labelledby="contact-title">
+          <h2 id="contact-title">Позвоните или напишите</h2>
+          <a class="contact-card__phone" href="tel:+79326114345" data-tel><span data-phone-text>+7 932 611-43-45</span></a>
+          <div class="contact-card__btns">
+            <a class="btn btn--light" href="https://wa.me/79326114345" data-wa target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn btn--outline-light" href="https://t.me/+79326114345" data-tg target="_blank" rel="noopener">Telegram</a>
+          </div>
+        </aside>
+      </div>
+      <!-- Поправьте под реальные условия: выезд на дом, часы, способ оплаты -->
+      <ul class="facts">
+        <li><b>Выезд на дом</b><span>Заречный, Свердловская область</span></li>
+        <li><b>Заявки с 09:00</b><span>Звонок или мессенджер</span></li>
+        <li><b>Цена до начала работы</b><span>Называем после осмотра мебели</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services" aria-labelledby="services-title">
+    <div class="wrap">
+      <div class="section__head">
+        <p class="eyebrow">Услуги и цены</p>
+        <h2 id="services-title">Что чистим и сколько это стоит</h2>
+        <p>Это примерные цены для демо. Настоящие впишем по вашему прайсу.</p>
+      </div>
+      <!-- Примерные цены. Замените на реальные и уберите карточки, которых нет в вашем списке услуг. -->
+      <ul class="cards">
+        <li class="svc">
+          <span class="svc__n">01</span>
+          <h3>Диваны и кресла</h3>
+          <p>Глубокая чистка обивки. Убираем пятна, грязь и пыль.</p>
+          <div class="svc__price"><span class="fill">от 2 000 ₽</span><small>за диван</small></div>
+        </li>
+        <li class="svc">
+          <span class="svc__n">02</span>
+          <h3>Матрасы</h3>
+          <p>Глубокая чистка. Убираем пятна и запахи.</p>
+          <div class="svc__price"><span class="fill">от 1 500 ₽</span><small>за матрас</small></div>
+        </li>
+        <li class="svc">
+          <span class="svc__n">03</span>
+          <h3>Ковры</h3>
+          <p>Глубокая чистка ковров на месте.</p>
+          <div class="svc__price"><span class="fill">от 250 ₽</span><small>за м²</small></div>
+        </li>
+      </ul>
+      <p class="cards__note">Цены примерные. Точную сумму называем после осмотра. Другая мебель — напишите в мессенджер.</p>
+    </div>
+  </section>
+
+  <!-- ДО И ПОСЛЕ: блок убран, место под него оставлено как подсказка -->
+  <section class="section section--tint" id="gallery" aria-labelledby="gallery-title">
+    <div class="wrap">
+      <div class="note-band">
+        <p class="note-band__tag">Можно добавить</p>
+        <h2 id="gallery-title">Блок «До и после»</h2>
+        <p>Здесь можно добавить фото ваших работ с ползунком «до и после».</p>
+        <p>Нужны два снимка одной мебели с одного ракурса.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section" id="process" aria-labelledby="process-title">
+    <div class="wrap">
+      <div class="section__head">
+        <p class="eyebrow">Как работаем</p>
+        <h2 id="process-title">Четыре шага от звонка до результата</h2>
+      </div>
+      <ol class="steps">
+        <li class="step">
+          <h3>Вы оставляете заявку</h3>
+          <p>Звоните или пишете в мессенджер. Договариваемся о времени визита.</p>
+        </li>
+        <li class="step">
+          <h3>Мы осматриваем мебель</h3>
+          <p>Смотрим обивку и пятна. Называем цену.</p>
+        </li>
+        <li class="step">
+          <h3>Чистим на месте</h3>
+          <p>Работа занимает <span class="fill">1–3 часа</span>. Зависит от размера и загрязнения.</p>
+        </li>
+        <li class="step">
+          <h3>Вы проверяете результат</h3>
+          <p>Смотрите мебель после чистки и оплачиваете работу.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section section--tint" id="reviews" aria-labelledby="reviews-title">
+    <div class="wrap">
+      <div class="section__head">
+        <p class="eyebrow">Отзывы</p>
+        <h2 id="reviews-title">Что говорят клиенты</h2>
+      </div>
+      <div class="review-box">
+        <!-- Вставьте реальный отзыв с 2ГИС. Рамку и подпись можно оставить. -->
+        <figure class="review">
+          <blockquote>«<span class="fill">Текст отзыва клиента</span>»</blockquote>
+          <figcaption><cite>Отзыв клиента на 2ГИС</cite></figcaption>
+        </figure>
+        <a class="btn btn--ghost" href="https://2gis.ru/zarechnyj-sverdlovsk-region/firm/70000001051677953" target="_blank" rel="noopener">Читать отзывы на 2ГИС</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq" aria-labelledby="faq-title">
+    <div class="wrap faq-wrap">
+      <div class="section__head">
+        <p class="eyebrow">Вопросы</p>
+        <h2 id="faq-title">Отвечаем честно</h2>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>Сколько сохнет мебель после чистки?</summary>
+          <div class="answer">
+            <!-- Проверьте срок по своему опыту -->
+            <p>Обычно от нескольких часов до суток. Зависит от ткани, толщины и проветривания.</p>
+            <p>Точный срок скажем после осмотра.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Уберёте запах от животных?</summary>
+          <div class="answer">
+            <!-- Если даёте гарантию на повторную обработку, напишите её здесь -->
+            <p>Зависит от того, насколько глубоко запах въелся в обивку.</p>
+            <p>Оценим на осмотре и честно скажем, что удастся убрать.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Как оплатить?</summary>
+          <div class="answer">
+            <p><span class="fill">Наличными или переводом.</span> Цену называем до начала работы.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Куда вы выезжаете?</summary>
+          <div class="answer">
+            <p>В Заречный, Свердловская область. Приезжаем к вам домой.</p>
+            <p>Живёте в другом городе? Позвоните, скажем, сможем ли приехать.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Сколько длится чистка и что подготовить?</summary>
+          <div class="answer">
+            <p><span class="fill">От 1 до 3 часов.</span> Зависит от размера мебели и загрязнения.</p>
+            <p>Нужен свободный доступ к мебели.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section class="section booking on-dark" id="booking" aria-labelledby="booking-title">
+    <div class="wrap booking__grid">
+      <div>
+        <p class="eyebrow">Запись</p>
+        <h2 id="booking-title">Запишитесь на чистку</h2>
+        <p class="booking__text">Звоните или пишите в мессенджер. Заявки принимаем с 09:00. Назовём время визита.</p>
+        <a class="booking__phone" href="tel:+79326114345" data-tel><span data-phone-text>+7 932 611-43-45</span></a>
+      </div>
+      <div class="booking__btns">
+        <a class="btn btn--light" href="tel:+79326114345" data-tel>Позвонить</a>
+        <a class="btn btn--outline-light" href="https://wa.me/79326114345" data-wa target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn btn--outline-light" href="https://t.me/+79326114345" data-tg target="_blank" rel="noopener">Telegram</a>
+        <a class="btn btn--outline-light" href="viber://chat?number=%2B79326114345" data-vb>Viber</a>
+        <p class="booking__vk">Мы во ВКонтакте: <a href="https://vk.ru/formula_chistoty_96" target="_blank" rel="noopener">vk.ru/formula_chistoty_96</a></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__row">
+    <a class="logo" href="#top">Формула чистоты</a>
+    <p>Чистка мебели, матрасов и ковров. Заречный, Свердловская область. Мастер: <span class="fill">[И. О. Фамилия]</span></p>
+    <p><a href="https://2gis.ru/zarechnyj-sverdlovsk-region/firm/70000001051677953" target="_blank" rel="noopener">Мы на 2ГИС</a> · © 2026</p>
+  </div>
+</footer>
+
+<div class="bar" role="region" aria-label="Быстрая связь">
+  <a class="btn" href="tel:+79326114345" data-tel>Позвонить</a>
+  <a class="btn btn--ghost" href="https://wa.me/79326114345" data-wa target="_blank" rel="noopener">WhatsApp</a>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  /* Контакты: 11 цифр без плюса и пробелов. Номер взят с карточки 2ГИС — проверьте. */
+  var PHONE_DIGITS = '79326114345';
+  /* Ник в Telegram без @. Если пусто, ссылка пойдёт по номеру. */
+  var TELEGRAM_USER = '';
+
+  document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+
+  function each(sel, fn) {
+    Array.prototype.forEach.call(document.querySelectorAll(sel), fn);
+  }
+
+  if (/^7\d{10}$/.test(PHONE_DIGITS)) {
+    var d = PHONE_DIGITS;
+    var pretty = '+7 ' + d.slice(1, 4) + ' ' + d.slice(4, 7) + '-' + d.slice(7, 9) + '-' + d.slice(9, 11);
+    each('[data-tel]', function (el) { el.setAttribute('href', 'tel:+' + d); });
+    each('[data-phone-text]', function (el) { el.textContent = pretty; });
+    each('[data-wa]', function (el) { el.setAttribute('href', 'https://wa.me/' + d); });
+    each('[data-vb]', function (el) { el.setAttribute('href', 'viber://chat?number=%2B' + d); });
+    each('[data-tg]', function (el) {
+      el.setAttribute('href', TELEGRAM_USER ? 'https://t.me/' + TELEGRAM_USER : 'https://t.me/+' + d);
+    });
+  }
+
+  /* Мобильное меню */
+  var toggle = document.querySelector('.menu-toggle');
+  var nav = document.getElementById('nav');
+
+  function setMenu(open) {
+    nav.classList.toggle('is-open', open);
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    toggle.setAttribute('aria-label', open ? 'Закрыть меню' : 'Открыть меню');
+  }
+  toggle.addEventListener('click', function () {
+    setMenu(toggle.getAttribute('aria-expanded') !== 'true');
+  });
+  nav.addEventListener('click', function (e) {
+    if (e.target.closest('a')) setMenu(false);
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
+      setMenu(false);
+      toggle.focus();
+    }
+  });
+  window.addEventListener('resize', function () {
+    if (window.innerWidth >= 860) setMenu(false);
+  });
+
+  /* Плавная прокрутка */
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.addEventListener('click', function (e) {
+    var link = e.target.closest('a[href^="#"]');
+    if (!link) return;
+    var id = link.getAttribute('href').slice(1);
+    var target = id ? document.getElementById(id) : document.body;
+    if (!target) return;
+    e.preventDefault();
+    target.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+    if (history.replaceState) history.replaceState(null, '', id ? '#' + id : location.pathname);
+  });
+
+})();
+</script>
+</body>
+</html>
